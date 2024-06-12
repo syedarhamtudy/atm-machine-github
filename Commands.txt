@@ -1,0 +1,53 @@
+use command : git clone (any repository link)
+to clone the repository to your folder.
+
+
+npm init    or npm init -y                 ( package.json )
+
+
+tsc --init				( tsconfig.json )
+
+
+npm i --save-dev @types/inquirer  	( Dev Dependencies )
+
+
+
+NPM :-
+
+#! /usr/bin/env node   (For Making File Available Online and guiding cli to run in node environment)
+
+create "bin" in package.json and replace your js file in "main" and "bin" in package.json
+
+choose a unique name for your project.
+
+npm login (to login to your npm account)
+
+npm publish (to publish your code)
+
+npx arham091-calculator ( to run your program)
+
+
+Git & Github :-
+
+after creating repositry run the following commands:
+
+echo "# simple-calculator" >> README.md
+git init
+git add . (Upload all current directory files)
+git commit -m "first commit"
+git config --global user.email "syedarhamsyedamir@gmail.com"
+git config --global user.name "syedarhamtudy"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/syedarhamtudy/simple-calculator.git
+git push -u origin main
+
+Github Desktop :-
+
+create a new repositry
+click set up with github Desktop
+then click clone
+click on open with vs code or open vs code and open the folder in which clone is placed
+create some sample code files likes (hello world ,tsconfig ,package.json)
+it will be automatically detected on github desktop.
+then you can push in into your created repository.
